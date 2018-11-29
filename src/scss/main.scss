@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.topline{
+	background: green;
+	vertical-align:center;
+	text-align: center;
+	
+}
+
+.menu{
+	background: black;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.bywho{
+	height: 100px;
+	background: green;
+	float: bottom;
+}
+
+.product-image {
+	max-height: 200px;
+	object-fit: contain;
+}
+
+.row{
+	width: 100%;
+}
+
+special_price{
+	color: red;
+}
+
+.cross_price{
+    text-decoration: line-through;
+}
+
+.new_price{
+	color: red;
+}
+.category_item{
+	padding: 10px;
+    text-align: center;
+    background: transparent;
+    color: #FFF;
+    display: inline-block;
+    border: 1px solid #FFF;
+    position: relative;
+    transition: all 2s cubic-bezier(1,.52,1,-0.59);
+}
+@import "~bootstrap/scss/bootstrap";

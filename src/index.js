@@ -10,7 +10,7 @@ import 'bootstrap';
 let _makeProduct = require('./modules/product-html');
 function showProducts(category_id = null){
 	 jQuery.ajax({
-		url: 'http://nit.tron.net.ua/api/product/list' + (category_id == null ? '' : '/category/' + category_id),
+		url: 'https://nit.tron.net.ua/api/product/list' + (category_id == null ? '' : '/category/' + category_id),
 		method: 'get',
 		dataType: 'json',
 		success: function(json){
@@ -29,7 +29,7 @@ function showProducts(category_id = null){
 }
 showProducts();
  jQuery.ajax({
-	url: 'http://nit.tron.net.ua/api/category/list',
+	url: 'https://nit.tron.net.ua/api/category/list',
 	method: 'get',
 	dataType: 'json',
 	success: function(json){
